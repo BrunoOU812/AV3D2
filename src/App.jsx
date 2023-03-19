@@ -39,7 +39,7 @@ function App() {
               castShadow
               shadow-bias={-0.0001}
             />
-            {/* <color args={[0, 0, 0]} attach="background"></color> */}
+            <color args={[0.05, 0.05, 0.05]} attach="background"></color>
           </Canvas>
         </Suspense>
       </div>
